@@ -7,7 +7,7 @@ namespace Entities.Models
     [Table("User")]
     public class User
     {
-        public int Id { get; set; }
+        public Guid UserId { get; set; }
 
         [Required(ErrorMessage = "Name is required!")]
         [StringLength(30)]

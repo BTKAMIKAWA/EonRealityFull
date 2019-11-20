@@ -22,7 +22,7 @@ namespace Repository
 
         public User GetUserById(int Id)
         {
-            return FindByCondition(user => user.Id.Equals(Id))
+            return FindByCondition(user => user.UserId.Equals(Id))
                 .FirstOrDefault();
         }
 

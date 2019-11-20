@@ -23,7 +23,7 @@ namespace BrowserView.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Form()
         {
             return View();
         }
